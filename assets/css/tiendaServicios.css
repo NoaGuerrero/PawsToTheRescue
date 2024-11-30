@@ -1,0 +1,298 @@
+/* .container {
+    max-width: 960px;
+} */
+
+/* ========================================= Navigation START=========================================*/
+.breadcrumb-item a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.breadcrumb-item a:hover {
+    text-decoration: underline;
+}
+
+
+.icon-link>.bi {
+    width: .75em;
+    height: .75em;
+}
+
+.filter-bar {
+    display: flex;
+    gap: 10px;
+}
+
+.filter-button {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 4px 16px;
+    background-color: #fff;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s, box-shadow 0.2s;
+}
+
+.filter-button:hover {
+    background-color: #f3f4f6;
+}
+
+.filter-button svg {
+    margin-left: 10px;
+    width: 16px;
+    height: 16px;
+}
+
+.flex-equal>* {
+    flex: 1;
+}
+
+@media (min-width: 768px) {
+    .flex-md-equal>* {
+        flex: 1;
+    }
+}
+
+@media (min-width: 768px) {
+    .m-md-3 {
+        margin: 0rem !important;
+    }
+}
+
+/* ========================================= Navigation END =========================================*/
+
+.container.mt-4 .card {
+    height: 504.09375 !important;
+    margin: auto;
+    border-radius: 10px;
+    padding: 20px;
+    transition: .3s;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px !important;
+}
+
+.container.mt-4 .card:hover {
+    box-shadow: 0 0 10px #666;
+    scale: 1.05;
+}
+
+.fixedButton {
+    display: block;
+    background-color: #003566;
+    border: 1px solid #003566;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    color: #fff;
+    padding: 10px 35px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 40px;
+    transition: background-color 0.3s ease;
+}
+
+.fixedButton:hover {
+    background-color: #001d3d;
+    border-color: #001d3d;
+    color: #ffffff;
+}
+
+.card .brand {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.76171875rem;
+    margin: .25rem 0 0;
+    line-height: 1.3125;
+    color: #949494;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: 0;
+    white-space: normal;
+}
+
+.card .card-body .brand:hover {
+    color: #f5333e;
+}
+
+.card .card-body .card-text {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.card .card-body .card-text .previousPrice {
+    text-decoration: line-through;
+    font-size: 12px;
+    margin: 0;
+}
+
+.card .card-body .card-text .price {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0;
+}
+
+.card .card-body .card-text .discount {
+    font-weight: bold;
+    background-color: #f04f36;
+    color: white;
+    padding: 3px 6px;
+    margin-left: 0px;
+    border-radius: 3px;
+    font-size: .8125rem;
+    margin: 0;
+}
+
+
+.btn-custom {
+    background-color: #003566;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: #001d3d;
+    color: #ffffff;
+}
+
+
+.card-text .price {
+    font-size: 1.2em;
+    color: #003566;
+    font-weight: bold;
+}
+
+.card-text .discount {
+    font-size: 0.9em;
+    color: #E6007E;
+}
+
+
+
+
+.bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+}
+
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: .75rem;
+}
+
+.icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: .75rem;
+}
+
+.text-shadow-1 {
+    text-shadow: 0 .125rem .25rem rgba(0, 0, 0, .25);
+}
+
+.text-shadow-2 {
+    text-shadow: 0 .25rem .5rem rgba(0, 0, 0, .25);
+}
+
+.text-shadow-3 {
+    text-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .25);
+}
+
+.card-cover {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.feature-icon-small {
+    width: 3rem;
+    height: 3rem;
+}
+
+.card-promotion {
+    padding-top: 12px !important;
+}
+
+.container.px-4.py-5 {
+    padding-top: 0rem !important;
+    padding-bottom: 3rem !important;
+}
+
+.card-promotion {
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: box-shadow 0.2s ease;
+    background-color: #fdfdfd;
+}
+
+.card-promotion:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-promotion .card-title {
+    color: #003566;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.card-promotion .card-text {
+    font-size: 0.9rem;
+    color: #6c757d;
+    margin-bottom: 1rem;
+}
+
+.card-promotion .list-group-item {
+    font-size: 0.85rem;
+    color: #495057;
+    background-color: transparent;
+    border: none;
+}
+
+.card-promotion .btn-primary {
+    background-color: #003566;
+    border-color: #003566;
+    color: white;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.card-promotion .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+    color: white;
+}
+
+/* .card-service{
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+} */
+
+.text-bg-dark {
+    color: #fff !important;
+    background-color: #fdfdfd !important;
+}
+
+.accordion-button {
+    font-weight: bold;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.custom-chat-position {
+    bottom: 70px; /* Ajusta la altura según tus necesidades */
+    right: 15px; /* Opcional, ajuste lateral */
+}

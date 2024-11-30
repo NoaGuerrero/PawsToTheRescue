@@ -1,0 +1,126 @@
+/* body{
+    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+                  url("assets/images/conactUs/logo_trial.png");
+
+   
+} */
+
+
+
+.chat {
+    display: block;
+    background-color: #AA5486;
+    border: 1px solid #AA5486;
+    font-weight: 500;
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.chat:hover{
+    display: block;
+    background-color: #AA5486;
+    border: 1px solid #AA5486;
+    font-weight: 500;
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+
+
+
+.popup {
+    /* position: fixed;
+    top: 50%;
+    left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 100%; 
+    max-width: 400px;
+    margin: auto; 
+}
+
+.popup-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra horizontalmente */
+    justify-content: center; /* Centra verticalmente */
+}
+
+.popup-header {
+    background-color: #AA5486;
+    /* border-top-left-radius: 8px;
+    border-top-right-radius: 8px; */
+    border-radius: 50%;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    /* width: 100%;
+    padding: 15px;
+    display: flex;
+    justify-content: center; */
+}
+.popup-body{
+    margin-top: 15px;
+}
+
+.icon-container {
+    width: 30px;
+    height: 30px;
+    background-color: #AA5486;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.popup-body p {
+    margin-bottom: 15px;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+form label {
+    display: block;
+    text-align: left;
+    margin: 10px 0 5px;
+    font-size: 14px;
+}
+
+form input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.start-chat-btn {
+    background-color: #AA5486;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.start-chat-btn:hover {
+    background-color: #AA5486
+}
+
+/* Mostrar el pop-up */
+.popup.show {
+    display: block;
+}

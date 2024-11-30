@@ -1,0 +1,50 @@
+.container {
+    max-width: 960px;
+}
+
+.whatsapp-sec .accordion-container_faq {
+    height: 250px;
+    overflow-y: scroll;
+    padding-right: 20px !important;
+}
+
+.whatsapp-sec .accordion_faq_pop {
+    cursor: pointer;
+    font-size: 15px !important;
+    font-weight: 700 !important;
+    color: #505050 !important;
+    margin: 0 !important;
+    padding-right: 20px !important;
+    position: relative;
+    background: inherit !important;
+    padding-left: 0;
+    width: 100%;
+    text-align: left;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border: 0;
+}
+
+.whatsapp-sec .accordion_faq_pop:before {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 12px;
+    background: #ff7474;
+    right: 0;
+    transform: translateY(-50%);
+    top: 50%;
+    border: inherit !important;
+}
+
+.whatsapp-sec .accordion_faq_pop:after {
+    position: absolute;
+    content: "";
+    height: 12px;
+    width: 2px;
+    background: #ff7474;
+    right: 5px;
+    transform: translateY(-50%);
+    top: 50%;
+    border: inherit !important;
+}
